@@ -18,6 +18,11 @@ export default defineConfig({
   resolve: {
     alias
   },
+  server: {
+    port: 8080,
+    open: true,
+    host: true
+  },
   css: {
     preprocessorOptions: {
       scss: {
